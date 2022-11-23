@@ -1,0 +1,9 @@
+package web;
+
+import java.util.Optional;
+import org.codacy.framework.web.BaseTestWeb;
+import org.codacy.pages.web.Authentication;
+import org.codacy.pages.web.Homepage;
+import org.codacy.pages.web.LoginMethod;
+import org.codacy.pages.web.ProjectWebPage;
+import org.testng.annotations.Test;
