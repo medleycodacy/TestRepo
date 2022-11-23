@@ -11,15 +11,16 @@ import org.testng.annotations.Test;
 
 
 @Test(alwaysRun = true)
-public class Duplication extends BaseTestWeb {
+public class duplication extends BaseTestWeb {
     
 
     public void tc03setUp() {
+        //todo
         Authentication authentication = new Authentication(driver, testEnvironment);
         Homepage homepage = new Homepage(driver, testEnvironment);
 
         homepage.landingPage();
-        authentication.login(LoginMethod.BITBUCKET, testEnvironment.email(), testEnvironment.password(), Optional.empty());
+        authentication.login(LoginMethod.BITBUCKET);
     }
 
     public void tc03setUp() {
