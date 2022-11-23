@@ -17,7 +17,6 @@ public class issue extends BaseTestWeb {
         Homepage homepage = new Homepage(driver, testEnvironment);
 
         homepage.landingPage();
-        authentication.login(LoginMethod.BITBUCKET);
     }
 
     public void tc03setUp() {
