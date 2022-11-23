@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 
 @Test(alwaysRun = true)
-public class duplication extends BaseTestWeb {
+public class Duplication extends BaseTestWeb {
 
     @Test(alwaysRun = true)
     public void tc03setUp() {
