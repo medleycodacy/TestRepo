@@ -1,5 +1,3 @@
-package web;
-
 import java.util.Optional;
 import org.codacy.framework.web.BaseTestWeb;
 import org.codacy.pages.web.Authentication;
@@ -9,9 +7,8 @@ import org.codacy.pages.web.ProjectWebPage;
 import org.testng.annotations.Test;
 
 
-
 @Test(alwaysRun = true)
-public class duplication extends BaseTestWeb {
+public class issue extends BaseTestWeb {
     
 
     public void tc03setUp() {
@@ -20,7 +17,6 @@ public class duplication extends BaseTestWeb {
         Homepage homepage = new Homepage(driver, testEnvironment);
 
         homepage.landingPage();
-        authentication.login(LoginMethod.BITBUCKET);
     }
 
     public void tc03setUp() {
